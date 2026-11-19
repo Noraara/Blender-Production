@@ -52,6 +52,18 @@ Blender and an MCP connection are the baseline for live edits. The [EL4CTEO](htt
 
 Related workflows can pass a brief or receive verification evidence through the [`atlas-workflow/v1` handoff](skills/blender-production/references/verification.md#handoff).
 
+## From a brief to an editable asset
+
+For the desk stand example, the brief gave a target width, an angled contact surface, and a three-quarter view. The workflow starts by confirming the open Blender file and the expected unit scale. It blocks out the silhouette and contacts first, keeps the bevel and construction editable, then checks the intended view and a second angle before export.
+
+For a local repair, it takes a shorter path. A request to correct a clipped surface starts by inspecting the affected objects and measuring the overlap. After the edit, it repeats that measurement and checks the nearby part that could be affected.
+
+## What counts as delivery
+
+For a substantial asset, expect the editable .blend file, any requested export, and a summary of the actual checks. The graphic check uses the intended camera or display angle. The geometry check uses the evaluated mesh so modifiers are reflected. A clean reimport checks that the export kept the expected scale, topology, hierarchy, and materials where applicable. Engine behavior can be checked as a separate step when the task calls for it.
+
+If a live write is interrupted, the next step is to inspect the connected file and objects before retrying. The [verification guide](skills/blender-production/references/verification.md) covers the saved source, export, and handoff evidence.
+
 ## How I use it
 
 Start with Blender and its MCP connection. For reference-led work I reach for arjun988’s art-direction guidance. For rigging, export, or deeper mesh QA I use the relevant EL4CTEO specialist. The workflow’s core delivery checks apply through Blender itself when those libraries are absent. See the [delivery checks](skills/blender-production/references/verification.md) and [specialist guide](skills/blender-production/references/specialists.md).
