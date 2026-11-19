@@ -1,5 +1,11 @@
 # Verification and recovery
 
+## Match verification to the job
+
+For a small repair, measure or inspect the defect before and after, then check the nearest dependency. For a substantial asset, verify the intended view, evaluated geometry, saved editable source, and any requested export in a clean scene.
+
+Use the relevant QA profile when a specialist is available. Blender can run the core checks directly. Use viewport statistics and evaluated mesh measurements for geometry, the intended camera and a second angle for appearance, and a clean reimport for export checks. Compare against the brief and save the evidence the project permits.
+
 ## Scene and mesh checks
 
 - Inspect the intended hero view and a second useful angle. Compare silhouette, proportions, contacts, and shading against the brief. For a reference match, compare from the matched camera. For motion, inspect representative frames and extreme poses.

@@ -52,6 +52,10 @@ Blender and an MCP connection are the baseline for live edits. The [EL4CTEO](htt
 
 Related workflows can pass a brief or receive verification evidence through the [`atlas-workflow/v1` handoff](skills/blender-production/references/verification.md#handoff).
 
+## How I use it
+
+Start with Blender and its MCP connection. For reference-led work I reach for arjun988’s art-direction guidance. For rigging, export, or deeper mesh QA I use the relevant EL4CTEO specialist. The workflow’s core delivery checks apply through Blender itself when those libraries are absent. See the [delivery checks](skills/blender-production/references/verification.md) and [specialist guide](skills/blender-production/references/specialists.md).
+
 ## Help and contributing
 
 For an issue, include the Blender, agent, and MCP versions, the task or export format, and a small example you can share. Include the expected result and the first check that failed. For a workflow change, report the test you ran and the actual result.
