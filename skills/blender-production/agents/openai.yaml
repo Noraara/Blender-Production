@@ -1,0 +1,6 @@
+interface:
+  display_name: "Blender Production"
+  short_description: "Build, render, and verify editable Blender assets"
+  default_prompt: "Use $blender-production to build and verify this Blender asset."
+policy:
+  allow_implicit_invocation: true
