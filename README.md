@@ -1,4 +1,4 @@
-# Blender Production
+# Blender Production Skill
 
 **Turn a brief into an editable Blender asset and an export you can verify.** Blender Production guides Codex and Claude Code through modeling, scene edits, renders, and export checks in Blender. Use it to work from a reference, repair an existing model, or prepare an asset for delivery.
 
